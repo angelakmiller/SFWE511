@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <project xmlns="http://www.plcopen.org/xml/tc6_0201" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ns1="http://www.plcopen.org/xml/tc6_0201">
   <fileHeader companyName="Unknown" productName="Unnamed" productVersion="1" creationDateTime="2024-09-29T12:49:38"/>
-  <contentHeader name="Unnamed" modificationDateTime="2024-10-26T09:30:40">
+  <contentHeader name="Unnamed" modificationDateTime="2024-10-26T09:43:09">
     <coordinateInfo>
       <fbd>
         <scaling x="10" y="10"/>
@@ -1775,21 +1775,6 @@
                 <xhtml:p><![CDATA[Measure of BOD5 levels]]></xhtml:p>
               </documentation>
             </variable>
-          </localVars>
-          <localVars>
-            <variable name="ClarifierTime">
-              <type>
-                <TIME/>
-              </type>
-              <initialValue>
-                <simpleValue value="0"/>
-              </initialValue>
-              <documentation>
-                <xhtml:p><![CDATA[Measure of time in secondary clarifier tank]]></xhtml:p>
-              </documentation>
-            </variable>
-          </localVars>
-          <localVars>
             <variable name="AirBlower" address="%QX0.3">
               <type>
                 <BOOL/>
